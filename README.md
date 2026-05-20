@@ -15,6 +15,11 @@ The implemented algorithms were:
 - **Standard Gradient Descent (GD)**
 - **Randomized Block Coordinate Gradient Descent (BCGD)**
 - **Gauss-Southwell BCGD**
+For each algorithm, we conducted experiments on both synthetically generated data and a real-world dataset, namely the classic MNIST handwritten digit dataset.  
+
+Additionally, we compared two different step-size strategies:
+- a fixed step size based on the Lipschitz constant,
+- and an adaptive step size computed using the Armijo rule.
 
 The project also includes a detailed report describing:
 - the theoretical background of the optimization methods,
